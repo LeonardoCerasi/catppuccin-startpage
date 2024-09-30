@@ -50,7 +50,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child)::after {
-          content: counter(tabs, cjk-ideographic);
+          content: counter(tabs, roman);
           counter-increment: tabs;
           display: flex;
           width: 100%;
@@ -198,6 +198,7 @@ class Statusbar extends Component {
                 </button>
                 <ul class="- indicator"></ul>
                 <div class="+ widgets col-end">
+                    <crypto-rate class="+ widget"></crypto-rate>
                     <current-time class="+ widget"></current-time>
                     <weather-forecast class="+ widget weather"></weather-forecast>
                 </div>

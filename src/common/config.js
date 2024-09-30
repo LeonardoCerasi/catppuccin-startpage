@@ -1,12 +1,17 @@
 class Config {
   defaults = {
     overrideStorage: false,
+    crypto: {
+      currency: 'EUR',
+      coin: 'ETH',
+      refreshIn: 10
+    },
     temperature: {
-      location: "London",
+      location: "Pineto",
       scale: "C",
     },
     clock: {
-      format: "h:i p",
+      format: "d/m/Y - h:i:s",
     },
     disabled: [],
     openLastVisitedTab: false,
