@@ -193,8 +193,8 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: '/astrofisica/',
-              url: '',
+              name: '/fisica teorica/',
+              url: 'https://pcforte.mi.infn.it/ft/index.html',
               icon: 'north-star',
               icon_color: palette.yellow,
             },
