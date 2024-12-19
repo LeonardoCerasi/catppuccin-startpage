@@ -344,6 +344,12 @@ const default_config = {
               icon: 'brand-threads',
               icon_color: palette.lavender,
             },
+            {
+              name: 'mastodon',
+              url: 'https://mastodon.social/',
+              icon: 'brand-mastodon',
+              icon_color: palette.mauve,
+            },
           ],
         },
         {
