@@ -321,28 +321,10 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://facebook.com/",
-              icon: "brand-facebook",
-              icon_color: palette.blue,
-            },
-            {
               name: "reddit",
               url: "https://reddit.com",
               icon: "brand-reddit",
               icon_color: palette.red,
-            },
-            {
-              name: 'instagram',
-              url: 'https://instagram.com/',
-              icon: 'brand-instagram',
-              icon_color: palette.mauve,
-            },
-            {
-              name: 'threads',
-              url: 'https://threads.net/',
-              icon: 'brand-threads',
-              icon_color: palette.lavender,
             },
             {
               name: 'mastodon',
