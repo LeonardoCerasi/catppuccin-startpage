@@ -332,6 +332,12 @@ const default_config = {
               icon: 'brand-mastodon',
               icon_color: palette.mauve,
             },
+            {
+              name: 'instagram',
+              url: 'https://instagram.com/',
+              icon: 'brand-instagram',
+              icon_color: palette.pink,
+            },
           ],
         },
         {
